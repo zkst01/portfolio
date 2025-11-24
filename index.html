@@ -3,77 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
-                <h1>Mi Portfolio</h1>
+                <h1>Portfolio: Nazareno Ibar Navarro</h1>
             </div>
+        </div>
     </header>
 
     <section id="hero">
         <div class="hero">
-            <div class="hero-content">
-            <h1>Bienvenido a mi Portfolio</h1>
-            <p>Soy Nazareno Ibar Navarro, un apasionado de la Programación.</p>
-            <a href="#projects" class="cta-button">Ver Mis Proyectos</a>
+            <div class="hero-content" data-parallax>
+                <h1><span class="accent">Bienvenido</span><br> a mi Portfolio</h1>
+                <p>Soy Nazareno, un apasionado de la Programación. Explora mis proyectos y habilidades.</p>
+                <a class="cta" href="#projects">Ver proyectos</a>
+            </div>
+
+            <div class="hero-visual" data-parallax aria-hidden="true">
+                <div class="neon-ring"></div>
+                <div class="glow-orb"></div>
             </div>
         </div>
-        <div id="hero-content"></div>
     </section>
 
     <section id="about">
         <div class="about-section">
-            <div class="fotocarnet">
-                <img src="assets/images/fotocarnet.jpg" alt="Fotocarnet" class="fotocarnet-img">
-            </div>
+            <div class="about-left">
                 <h2>Sobre Mí</h2>
-                <p>Hola, soy Nazareno Ibar Navarro. Tengo experiencia en HTML, CSS, JS y arduino.</p>
+                <p>Hola, me llamo Nazareno Ibar Navarro. Tengo 17 años, vivo en Villa mercedes, San Luis, Argentina. Estudio en la escuela Tecnica N°20 Antonio Berni. Tengo experiencia en HTML, CSS, JS y ARDUINO.</p>
                 <h3>Intereses</h3>
-            <ul>
-            <li>[Interés 1]</li>
-            <li>[Interés 2]</li>
-            <li>[Interés 3]</li>
-            </ul>
-        </div>
-        <div id="about-content"></div>
+                <ul>
+                    <li>Aprender más sobre programación</li>
+                    <li>Crear una APP para celular</li>
+                    <li>Desarrollar algun juego</li>
+                </ul>
+            </div>
     </section>
 
     <section id="skills">
         <div class="skills-section">
         <h2>Mis Habilidades</h2>
-        <p>A continuación se presentan las habilidades y competencias que he desarrollado a lo largo de mi carrera:</p>
+        <p>A continuación se presentan las habilidades y competencias que estoy desarrollando:</p>
         <div class="skill">
             <h3>Desarrollo Web</h3>
             <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
+                <div class="progress" style="width: 12%;"></div>
             </div>
         </div>
         <div class="skill">
             <h3>Diseño Gráfico</h3>
             <div class="progress-bar">
-                <div class="progress" style="width: 75%;"></div>
+                <div class="progress" style="width: 3%;"></div>
             </div>
         </div>
         <div class="skill">
             <h3>Gestión de Proyectos</h3>
             <div class="progress-bar">
-                <div class="progress" style="width: 70%;"></div>
+                <div class="progress" style="width: 26%;"></div>
             </div>
         </div>
         <div class="skill">
             <h3>Marketing Digital</h3>
             <div class="progress-bar">
-                <div class="progress" style="width: 65%;"></div>
+                <div class="progress" style="width: 2%;"></div>
             </div>
         </div>
         <div class="skill">
             <h3>Comunicación</h3>
             <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
+                <div class="progress" style="width: 45%;"></div>
             </div>
         </div>
     </div>
@@ -84,38 +86,14 @@
         <div class="projects-section">
         <h2>Proyectos</h2>
         <div class="project">
-            <h3>Título del Proyecto 1</h3>
-            <p>Descripción breve del Proyecto 1. Aquí puedes incluir detalles sobre las tecnologías utilizadas y el propósito del proyecto.</p>
-            <a href="https://enlace-a-proyecto1.com" target="_blank" class="project-link">Ver Proyecto</a>
+            <h3>¿Que es la programacion? Proyecto 1</h3>
+            <p>Esta pagina fue creada con la intencion de que la gente entienda que es la programacion y como comenzo, tambien tiene actividades interactivas</p>
+            <a href="https://pagina-programacion-basica.netlify.app" target="_blank" class="project-link">Ver Proyecto</a>
         </div>
     </div>
         <div id="projects-content"></div>
     </section>
 
-    <!--<section id="contact">
-            <h2>Contacto</h2>
-            <div class="fotocarnet">
-                <img src="../assets/images/fotocarnet.jpg" alt="Fotocarnet" class="fotocarnet-img">
-            </div>
-            <p>Si deseas ponerte en contacto conmigo, por favor completa el siguiente formulario:</p>
-            <form action="#" method="post" class="contact-form">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
-        <div id="contact-content"></div>
-    </section>-->
-
-    <footer>
-        <p>&copy; 2025 Mi Portfolio. Todos los derechos reservados.</p>
-    </footer>
 
     <script src="scripts.js"></script>
 </body>
